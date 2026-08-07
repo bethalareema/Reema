@@ -1,0 +1,29 @@
+package com.poeratorsprograms.selecationstaements;
+
+import java.util.Scanner;
+
+public class NeonNumber {
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter The number :");
+		int n=sc.nextInt();
+		
+		int s=n*n;
+		int sum=0;
+		
+	         for (;s>0;s=s/10) {
+			int digit=s%10;
+			sum=sum+digit;
+			s=n/10;	
+		}if(s==0) {
+			System.out.println(n +" is a neon number");
+		}else {
+			System.out.println(n +" is a not neon number");
+		}
+		
+		
+	}
+}
+		
