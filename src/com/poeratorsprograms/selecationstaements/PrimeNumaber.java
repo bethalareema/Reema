@@ -16,7 +16,7 @@ public class PrimeNumaber {
 		}
 	  }
 	}
-	static boolean isprime(int n) {
+static boolean isprime(int n) {
 		boolean prime=true;
 			if(n==0||n==1) {
 				return false;

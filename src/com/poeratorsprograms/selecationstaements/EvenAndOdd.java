@@ -3,31 +3,34 @@ import java.util.Scanner;
 
 public class EvenAndOdd {
 	
-	 static void evenodd(int n) {
-		for(int i=0;i<=n;i++) {
+	 static void even(int n) {
+		for(int i=0;i<=n;i=i+2) {
 	      if(i!=0&&i%2==0) {
-	    	  System.out.println(i);
+	    	  System.out.print(i+" ");
 	    	  
 	      }
-	      System.out.println("................");
-			
+	      
 		}
-		for(int i=0;i<=n;i++) {
+		System.out.println();
+	 System.out.println("....................");
+
+	for(int i=0;i<=n;i++) {
 		      if(i!=0&&i%2==1) {
-		    	  System.out.println(i);
+		    	  System.out.print(i+" ");
 		      }
 				
 			}
-	}
+	 }
 
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Enter the number :");
-		int even=sc.nextInt();
+		int n=sc.nextInt();
 		
-		evenodd(even);
+		even(n);
+		
 		
 
 	}
