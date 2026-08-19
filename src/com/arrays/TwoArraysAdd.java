@@ -17,7 +17,7 @@ public class TwoArraysAdd {
 		}
 			for(int i=0;i<a2.length;i++) {
 				a3[a1.length+1]=a2[i];
-				System.out.print(a3[i]+" ");
+//				System.out.println(a3[i]+"  ");
 			}
 			System.out.println(Arrays.toString(a3));
 			

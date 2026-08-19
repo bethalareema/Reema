@@ -1,5 +1,6 @@
 package com.arrays;
 
+import java.util.Arrays;
 
 public class TwoArraysadd1 {
 
@@ -25,11 +26,11 @@ public class TwoArraysadd1 {
 				a3[i]=a1[i];
 			}else {
 				a3[i]=a1[i]+a2[i];
-				System.out.println(a3[i]);
+				System.out.print(a3[i]+" ");
 			}
 		}
 		
-//		System.out.println(Arrays.toString(a3));
+		System.out.println(Arrays.toString(a3));
 
 	}
 
